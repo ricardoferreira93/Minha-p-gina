@@ -1,0 +1,117 @@
+html {
+   scroll-behavior: smooth; /*quando clicar em inicio, ou os outros, ir suave e nao de uma vez*/
+}
+
+.cabecalho {
+    background-image: url("./img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cor-nav {
+    background-image: linear-gradient( rgb(211, 209, 211), rgb(75, 79, 59));
+}
+
+.foto-perfil {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.nav-link, .navbar-brand {
+    font-weight: bold;
+    color: #000000;
+    
+    padding: 0.2rem;
+    margin-left: 1rem;
+    border-radius: 5%;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    
+    color: #ffffff;
+}
+
+.redes-sociais {
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.meu-nome, .estudante {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cor-primaria {
+    background-color: #c1bdbc;
+}
+
+.cor-segundaria {
+    background-color: #ffffff;
+}
+
+
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+/* icones */
+
+.container i { /* container dos icones redes sociais*/
+    font-size: 1.6em;
+    transition: 0.3s ease-in-out;
+   
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-github {
+    color: #171515;
+}
+
+.fa-linkedin {
+    color: #0a66c2;
+}
+
+/* SOBRE MIM */
+
+.sobre-mim {
+    margin-bottom: 40px;
+}
+
+.lead {
+    font-weight: 400;
+}
+
+/* outro */
+
+.projetos {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* CONTATO */
+
+.contato {
+   padding-top: 60px;
+   padding-bottom: 60px; 
+}
+
+/*footer*/
+
+.copyright {
+    font-weight: bold;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: linear-gradient( rgb(211, 209, 211), rgb(75, 79, 59));
+}
